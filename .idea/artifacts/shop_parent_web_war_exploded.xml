@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="shop-parent-web:war exploded">
+    <output-path>$PROJECT_DIR$/shop-parent-web/target/shop-parent-web</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="shop-parent-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="shop-customer-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="shop-customer" />
+          </element>
+          <element id="archive" name="shop-goods-web-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="shop-goods-web" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/shop-parent-web/target/shop-parent-web/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="shop-parent-web/web/Web" />
+    </root>
+  </artifact>
+</component>
